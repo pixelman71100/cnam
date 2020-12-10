@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM</title>
+    <style type="text/css">
+    :root {
+        --text-police: verdana;
+        --text-color: white;
+    }
+
+    * {
+        font-family: var(--text-police);
+    }
+
+    .container {
+        width: 70%;
+        min-width: 960px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        color: var(--theme-color);
+    }
+
+    blockquote {
+        border-left: 5px solid var(--theme-color);
+        padding-left: 10px;
+    }
+
+    .btn {
+        background: var(--theme-color);
+        color: var(--text-color);
+    }
+
+    .cat-sport {
+        --theme-color: #4A772F;
+    }
+
+    .cat-programming {
+        --theme-color: #005E7C;
+    }
+
+    .cat-culture {
+        --theme-color: #F5841A;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    	<h1>Les variables CSS</h1>
+        <div class="cat-sport">
+            <h2>Sport</h2>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+            <button class="btn">Bouton</button>
+        </div>
+        <div class="cat-programming">
+            <h2>Programmation</h2>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+            <button class="btn">Bouton</button>
+        </div>
+        <div class="cat-culture">
+            <h2>Culture</h2>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+            <button class="btn">Bouton</button>
+        </div>
+    </div>
+</body>
+
+</html>
